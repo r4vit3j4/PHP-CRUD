@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+header a,button
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+}
+.logo
+{
+    cursor: pointer;
+    margin-right: auto;
+}
+.links
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.links a
+{
+    transition: all 0.3s ease 0s;
+}
+.links a:hover
+{
+    color:white;
+}
+header button
+{
+    padding: 5px 15px;
+    background-color: rgba(184, 59, 94,1); 
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+header button:hover
+{
+    background-color: rgba(184, 59, 94,0.7); 
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.main div
+{
+    margin: 0px auto;
+    background-color: #b83b5e;
+    padding: 50px 100px;
+    border-radius: 15px;
+    color: white;
+}
+.main div h1
+{
+    font-size: 42px;
+    padding : 10px;
+}
+.login_table
+{
+    font-size: 18px;
+    color: white;
+}
+.login_table td
+{
+    padding: 3px;
+}
+.login_table input
+{
+    height: 35px;
+}
+#submit
+{
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.sg
+{
+    border:none;
+    background-color:rgba(84, 212, 91,1);
+    border-radius:10px;
+    /* box-shadow: 1px 1px 100px; */
+    /* margin-top:60px; */
+    color:white;
+    font-weight: 400;
+}
+.sg:hover
+{
+    background-color: rgba(84, 212, 91,0.8);
+}
+#signupa
+{
+    color: rgb(39, 194, 47);
+    text-decoration: underline;
+}
+.about_main
+{
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    margin-top: 100px;
+}
+.about_main div
+{
+    color: white;
+    background-color: #b83b5e;
+}
+.about_main_div1
+{
+    background-image: url(../images/asdf.jpg);
+    border-radius: 10px 0px 0px 10px;
+    padding: 200px 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_main_div2
+{
+    padding: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+.about_main_div2 h1
+{
+    padding: 10px 0px;
+}
+.pizza_main
+{
+    max-width: 90%;
+    background-color: #b83b5e;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.pizza_main table td
+{
+    padding: 75px;
+}
+.pizza_div
+{
+    box-shadow: 3px 3px 25px rgb(70, 70, 70);
+    border-radius: 10px;
+}
+.pizza_div_2
+{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.pizza_div_2 h3
+{
+    padding: 5px;
+    font-weight: 800;
+}
+.pizza_div_1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.pizza_div_1 img
+{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.addtocart
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.atc_btn
+{
+    padding: 5px 15px;
+    background-color: rgba(184, 59, 94,1); 
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: white;
+}
+.atc_btn:hover
+{
+    background-color: rgba(184, 59, 94,0.7); 
+}
+#dev
+{
+    font-family: 'Fira Mono', monospace;
+    font-weight: 500;
+}
+#dev_a
+{
+    color:#2e2958;
+    font-weight: 800;
+    font-family: 'Cascadia Code','Fira Mono', monospace;
+}
+.atc 
+{
+    display: flex;
+    /* margin: 0px auto; */
+    align-items: center;
+    justify-content: center;
+}
+.atc input
+{
+    padding: 10px 20px;
+    background-color: rgba(253, 253, 253,1); 
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 1px 1px 10px;
+}
+.atc input:hover
+{
+    background-color: rgba(253, 253, 253,0.8); 
+}
+.main_cart
+{
+    background-color: #b83b5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+}
+.div_cart
+{
+    text-align: center;
+    padding: 20px;
+}
+.table td,th
+{
+    padding: 20px;
+}
+.logout
+{
+    background-color: rgba(231,184,28,1);
+}
+.logout:hover
+{
+    background-color: rgba(231,184,28,0.4);
+}
